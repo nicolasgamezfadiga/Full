@@ -11,7 +11,7 @@ $contenido= "Nombre: " . $nombre . "\nCorreo: " . $correo . "\nTeléfono: " .$te
 
 mail($destino, "Contacto", $contenido);
 
-header("Location:contactos.html");
+header("Location:index.html");
 
 
 
